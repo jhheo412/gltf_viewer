@@ -7,7 +7,7 @@
     <!--버튼-->
     <!-- <button type="button" onclick="movehome()">home(Beta)</button> -->
     
-    <img src="/datsun/logo_origin.jpg" width="200px"height="80px">
+    <img src="/gltf_viewer/logo_origin.jpg" width="200px"height="80px">
     <input id="home" type="button" value="Home" onclick="window.location.reload()">
     <div class="dropdown">
         <button class="dropbtn">
@@ -145,7 +145,7 @@
 
 
 
-        loader.load('/20230130/230130_TestUnit_option_Z_ver3_glb.glb', function(gltf){        //파일경로 지정(''부분)
+        loader.load('/gltf_viewer/230130_TestUnit_option_Z_ver3_glb.glb', function(gltf){        //파일경로 지정(''부분)
             // addOutlineObject(gltf.scene);
             let model =gltf.scene;
             scene.add(gltf.scene);
